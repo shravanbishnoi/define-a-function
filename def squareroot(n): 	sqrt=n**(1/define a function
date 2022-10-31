@@ -1,0 +1,21 @@
+def squareroot(n):
+	sqrt=n**(1/2)
+	print(sqrt)
+squareroot(10)
+
+
+def to_centigrade(x):
+    return 5*(x-32)/9.0
+
+x=to_centigrade(100)
+print(x)
+
+
+
+def greet(n):
+	text='Hello '+n+'!!!\n'+'Welcome to python world...'
+	print(text)
+
+greet("SITARE")
+greet("SRM")
+greet("Lucknow")
